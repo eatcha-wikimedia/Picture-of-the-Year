@@ -63,7 +63,7 @@ def rows_maker():
             usage = File_Page.usingPages()
             for use in usage:
                 use=use.title()
-                if use.startswith('Commons:Featured picture candidates/File:') or use.startswith('Commons:Featured picture candidates/Set'):
+                if use.startswith('Commons:Featured picture candidates/File:' , 'Commons:Featured picture candidates/Set'):
                     fp_nom_page_name = use
                 else:
                     Nominator = 'Unknown'
